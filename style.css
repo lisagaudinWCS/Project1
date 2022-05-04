@@ -8,7 +8,14 @@
 /* INDEX.HTML HOME PAGE*/
 body {
     margin : 10px;
+    background: #e5e5e5;
 }
+
+h2 {
+    font-family: Permanent Marker;
+    font-size: 20px;
+}
+
 /* Header Nav*/
 header {
     background-color: #526654;
@@ -21,9 +28,10 @@ header {
 }
 .navcontainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 80%;
-    margin: auto;
+   align-items: center;
+   margin-right: 10px;
 }
 li a {
     font-family: Permanent Marker;
@@ -31,14 +39,48 @@ li a {
     font-size: 25px;
 }
 /* Img+h1*/
-
-
-/* A la une*/
-
-.actu {
-    border-bottom: 3px solid black;
+#h1img {
+    width: 100%;
+    background-size: cover;
+}
+h1 {
+  background-color: rgba(225, 225, 225, 0.500);  
+  font-family: Permanent Marker;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding: 35px;
+}
+.h1container {
+    margin-bottom: 25px;
 }
 
+/* A la une*/
+.actu {
+    display: flex;
+    justify-content: space-around; 
+}
+
+#actuimg {
+    border-radius: 15px;
+    margin-bottom:  35px
+}
+.actu-txt {
+
+}
+
+
+
 /* Témoignages*/
+.temoignages {
+
+    display: flex;
+    justify-content: space-around;
+}
+.temoignages img {
+    border-radius: 50%;
+}
+
+
 
 /* Footer*/
