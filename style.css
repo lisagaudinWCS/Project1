@@ -1,0 +1,23 @@
+/* Generals*/
+* {
+    list-style-type: none;
+    margin : 0;
+    box-sizing: border-box;
+}
+/* INDEX.HTML HOME PAGE*/
+body {
+    margin : 10px;
+}
+/* Header Nav*/
+
+/* Img+h1*/
+
+/* A la une*/
+
+.actu {
+    border-bottom: 3px solid black;
+}
+
+/* Témoignages*/
+
+/* Footer*/
