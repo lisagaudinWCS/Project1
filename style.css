@@ -33,11 +33,12 @@ footer {
     width: 100%;
     margin-top: 30px;
     background-color: #526654;
-    height: 250px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .coordonnees {
     text-align: center;
@@ -70,6 +71,9 @@ h2 {
     background-size: cover;
     height: 450px;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h1 {
   background-color: rgba(225, 225, 225, 0.500);
@@ -79,6 +83,7 @@ h1 {
   color: white;
   text-align: center;
   padding: 35px;
+  width: 100%;
 }
 
 /* A la une*/
@@ -166,7 +171,21 @@ h1 {
 
 @media (max-width:500px) {
 
+    /*H1CONTAINER MOBILE*/
+    .h1container {
+        display: none;
+    }
+    /*ACTU MOBILE*/
+    .actu {
+        display:block;
+        padding-top: 20px;
+        width: 50%;
+        margin: auto;
+    }
     /*T-MOBILE*/
+    .temoignages {
+        display: block;
+    }
 
     /*FOOTERMOBILE*/
     footer {
