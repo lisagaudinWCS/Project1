@@ -171,6 +171,11 @@ h1 {
 
 @media (max-width:500px) {
 
+    /*NAVMOBILE*/
+    .navcontainer {
+        display: none;
+    }
+    
     /*H1CONTAINER MOBILE*/
     .h1container {
         display: none;
@@ -182,6 +187,13 @@ h1 {
         width: 50%;
         margin: auto;
     }
+    #actuimg {
+        border-radius: 15px;
+    }
+    #actuh2 {
+       text-align: center;
+    }
+
     /*T-MOBILE*/
     .temoignages {
         display: block;
