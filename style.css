@@ -4,6 +4,7 @@
     margin : 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: Quicksand;
 }
 /* INDEX.HTML HOME PAGE*/
 body {
@@ -44,7 +45,8 @@ li a {
     background-size: cover;
 }
 h1 {
-  background-color: rgba(225, 225, 225, 0.500);  
+  background-color: rgba(225, 225, 225, 0.500);
+  height: 150px;  
   font-family: Permanent Marker;
   font-size: 35px;
   color: white;
@@ -52,6 +54,11 @@ h1 {
   padding: 35px;
 }
 .h1container {
+    background-image: url("https://picsum.photos/1512/450");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 450px;
     margin-bottom: 25px;
 }
 
@@ -63,13 +70,19 @@ h1 {
 
 #actuimg {
     border-radius: 15px;
-    margin-bottom:  35px
+    margin: 0px 20px 0 0px;
 }
-.actu-txt {
-
+#bold {
+    font-weight: 600;
 }
 
-
+.border {
+    border-bottom: 3px solid black;
+    width: 50%;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
 
 /* Témoignages*/
 .temoignages {
@@ -79,8 +92,16 @@ h1 {
 }
 .temoignages img {
     border-radius: 50%;
+    margin-bottom: 10px
 }
 
+.t1, .t2, .t3 {
+    text-align: center;
+}
+
+.t-text {
+    font-family: Caveat;
+}
 
 
 /* Footer*/
