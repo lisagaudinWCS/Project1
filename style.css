@@ -79,7 +79,7 @@ h1 {
   background-color: rgba(225, 225, 225, 0.500);
   height: 150px;  
   font-family: Permanent Marker;
-  font-size: 35px;
+  font-size: 45px;
   color: white;
   text-align: center;
   padding: 35px;
@@ -140,6 +140,9 @@ h1 {
     background-size: cover;
     height: 450px;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .prof1-container, .prof2-container, .prof3-container {
     height: 200px;
@@ -166,6 +169,19 @@ h1 {
 #right {
     text-align: right;
 }
+
+/*CONTACT PAGE*/
+.contact-top-page {
+    background-image: url("./assets/contacttop-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
 
 /*MEDIA QUERIES*/
 
