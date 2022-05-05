@@ -138,18 +138,17 @@ h1 {
 }
 .prof1-container, .prof2-container, .prof3-container {
     height: 200px;
+    display: flex;
+    justify-content: space-between;
 }
 .prof1-container {
-    background-color: #D4ECCD;
-    display: flex;
+    background-color: #D4ECCD; 
 }
 .prof2-container {
     background-color: #ECE0CD;
-    display: flex;
 }
 .prof3-container {
     background-color: #CDDAEC;
-    display: flex;
 }
 .profimg {
     border-radius: 15px;
@@ -162,3 +161,26 @@ h1 {
 #right {
     text-align: right;
 }
+
+/*MEDIA QUERIES*/
+
+@media (max-width:500px) {
+
+    /*T-MOBILE*/
+
+    /*FOOTERMOBILE*/
+    footer {
+        display: block;
+    }
+    .coordonnees {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .menu {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+    /*Il doit y avoir une fermeture} après ce commentaire sinon c'est la merde*/
+    }
