@@ -71,6 +71,10 @@ h1 {
     border-radius: 15px;
     margin: 0px 20px 0 0px;
 }
+.actu-text{
+    width: 50%;
+    margin: auto;
+}
 #bold {
     font-weight: 600;
 }
