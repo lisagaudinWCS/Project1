@@ -139,3 +139,29 @@ h1 {
     height: 450px;
     margin-bottom: 25px;
 }
+.prof1-container, .prof2-container, .prof3-container {
+    height: 200px;
+}
+.prof1-container {
+    background-color: #D4ECCD;
+    display: flex;
+}
+.prof2-container {
+    background-color: #ECE0CD;
+    display: flex;
+}
+.prof3-container {
+    background-color: #CDDAEC;
+    display: flex;
+}
+.profimg {
+    border-radius: 15px;
+    margin: 10px;
+}
+.proftext{
+    width: 70%;
+    margin: auto;
+}
+#right {
+    text-align: right;
+}
