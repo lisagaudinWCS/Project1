@@ -54,10 +54,9 @@ h1 {
   padding: 35px;
 }
 .h1container {
-    background-image: url("https://picsum.photos/1512/450");
+    background-image: url("./assets/h1img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
     height: 450px;
     margin-bottom: 25px;
 }
@@ -86,13 +85,13 @@ h1 {
 
 /* Témoignages*/
 .temoignages {
-
     display: flex;
     justify-content: space-around;
 }
-.temoignages img {
+
+.t-img {
     border-radius: 50%;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .t1, .t2, .t3 {
@@ -101,7 +100,32 @@ h1 {
 
 .t-text {
     font-family: Caveat;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
 }
 
 
 /* Footer*/
+footer {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #526654;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.coordonnees {
+    text-align: center;
+}
+
+.coordonnees h3, .menu h3{
+    font-size: 22px;
+    font-family: Permanent Marker;
+}
+
+#italic {
+    font-style: italic;
+}
