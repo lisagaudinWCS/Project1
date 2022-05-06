@@ -170,14 +170,18 @@ h1 {
 /*MEDIA QUERIES*/
 
 @media (max-width:500px) {
-
+    /*BODY MOBILE*/
+    body {
+        margin: 0;
+        padding: 0;
+    }
     /*NAVMOBILE*/
     .navcontainer {
         display: none;
     }
     
-    /*H1CONTAINER MOBILE*/
-    .h1container {
+    /*H1CONTAINER +TOP PAGE MOBILE*/
+    .h1container, .about-top-page {
         display: none;
     }
     /*ACTU MOBILE*/
@@ -213,5 +217,22 @@ h1 {
         width: 50%;
         margin: auto;
     }
+
+    /*ABOUT MOBILE*/
+    /*PROFS MOBILE*/
+    .prof1-container, .prof2-container, .prof3-container, #right {
+        display: block;
+        height: fit-content;
+        text-align: center;
+    }
+    .profimg {
+        max-width: 150px;
+    }
+    .proftxt {
+        width: 80%;
+        margin: auto;
+        padding: 10px 0 15px 0;
+    }
+  
     /*Il doit y avoir une fermeture} après ce commentaire sinon c'est la merde*/
     }
