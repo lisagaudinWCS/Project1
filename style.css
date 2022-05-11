@@ -194,17 +194,7 @@ h1 {
     padding: 200px 0;
 }
 
-/*CONTACT PAGE*/
-.contact-top-page {
-    background-image: url("./assets/contacttop-img.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    margin-bottom: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
+
 .aboimg {
     border-radius: 50%;
     height: 250px;
@@ -305,9 +295,32 @@ h1 {
     align-self: center;
 }
 
-.messagetitle {
+/*CONTACT PAGE*/
+.contact-top-page {
+    background-image: url("./assets/contacttop-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.messagetitlebox {
+    display: flex;
+    justify-content: flex-start;
     margin-bottom: 20px;
-    
+}
+.messagetitle {
+    font-size: 25px;
+}
+.contactborder {
+    background-color: black;
+    border-radius: 20px;
+    height: 5px;
+    width: 30%;
+    align-self: center;
+    margin-left: 25px;
 }
 
 input {
@@ -326,9 +339,10 @@ input {
     border: none;
     border-radius: 5px;
     resize: none;
-
+    width: 70.6%;
 
 }
+
 /*MEDIA QUERIES*/
 
 @media (max-width:500px) {
