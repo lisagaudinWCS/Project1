@@ -294,7 +294,7 @@ h1 {
     }
     
     /*H1CONTAINER +TOP PAGE MOBILE*/
-    .h1container, .about-top-page {
+    .h1container, .about-top-page, .tarifs-top-page {
         display: none;
     }
     /*ACTU MOBILE*/
@@ -330,15 +330,16 @@ h1 {
         width: 50%;
         margin: auto;
     }
-
-    /*ABOUT MOBILE*/
-    /*PROFS MOBILE*/
-    .prof1-container, .prof2-container, .prof3-container, #right {
+    /*TOPPAGE MOBILE*/
+    .prof1-container, .prof2-container, .prof3-container, #right, .cartes, .annuel, .unite {
         display: block;
         height: fit-content;
         text-align: center;
     }
-    .profimg {
+
+    /*ABOUT MOBILE*/
+    /*PROFS MOBILE*/
+    .profimg,  {
         max-width: 150px;
     }
     .proftxt {
@@ -346,6 +347,20 @@ h1 {
         margin: auto;
         padding: 10px 0 15px 0;
     }
+
+    /*TARIFS MOBILE*/
+    .aboimg {
+        max-height: 150px;
+        margin: 15px 0;
+    }
+    .extraborder {
+        width: 50%;
+        margin: auto;
+    }
+    .cartes {
+        margin: 35px auto;
+        width: 50%;
+=    }
   
     /*Il doit y avoir une fermeture} après ce commentaire sinon c'est la merde*/
     }
