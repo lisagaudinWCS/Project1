@@ -305,7 +305,30 @@ h1 {
     align-self: center;
 }
 
+.messagetitle {
+    margin-bottom: 20px;
+    
+}
 
+input {
+    border-radius: 5px;
+    border: none;
+    background-color: #e8c9cb;
+}
+#firstname, #lastname, #email, #phone {
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#message {
+    padding: 20px;
+    background-color: #e8c9cb;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+
+
+}
 /*MEDIA QUERIES*/
 
 @media (max-width:500px) {
