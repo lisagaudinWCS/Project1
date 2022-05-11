@@ -220,7 +220,37 @@ h1 {
     margin: 60px 0;
 }
 
+button {
+    height: 45px;
+    width: 25%;
+    margin: 25px;
+    background-color: #8AB280;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
 
+.fulldivpink {
+    background-color: #ECCDCD;
+}
+.payments {
+    text-align: center;
+    font-size: 30px;
+}
+.picto {
+    border-radius: 50%;
+}
+.payment-type {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.payment-txt, .picto {
+    margin: 25px;
+}
 
 /*MEDIA QUERIES*/
 
