@@ -170,6 +170,26 @@ h1 {
     text-align: right;
 }
 
+
+/* PLANNING.HTML PAGE*/
+
+.planning-top-page{
+    background-image: url("./assets/planningtop-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenu {
+    font-size: 50px;
+    color: #E37379;
+    text-align: center;
+    padding: 200px 0;
+}
+
 /*CONTACT PAGE*/
 .contact-top-page {
     background-image: url("./assets/contacttop-img.jpg");
