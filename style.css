@@ -175,6 +175,10 @@ h1 {
 
 .planning-top-page{
     background-image: url("./assets/planningtop-img.jpg");
+}
+/* TARIFS HOME PAGE*/
+.tarifs-top-page{
+    background-image: url("./assets/tariftop-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
@@ -201,19 +205,123 @@ h1 {
     justify-content: center;
     align-items: center;  
 }
+.aboimg {
+    border-radius: 50%;
+    height: 250px;
+}
+.firstbloc {
+    align-self: center;
+}
+
+.firstpart, .extraborder {
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+
+.price, .typeprice, .includes {
+    text-align: center;
+}
+.price {
+    color: #E37379;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.typeprice {
+    font-size: 20px;
+}
+
+.includes {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.cartes, .annuel, .unite {
+    display: flex;
+    justify-content: space-around;
+}
+.cartes{
+    margin: 60px 150px;
+}
+
+.infos {
+    height: 45px;
+    width: 25%;
+    margin: 25px;
+    background-color: #8AB280;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.fulldivpink {
+    background-color: #ECCDCD;
+    padding: 25px 0 ;
+}
+.payments {
+    text-align: center;
+    font-size: 30px;
+}
+.picto {
+    border-radius: 50%;
+    margin: 25px  25px 10px 25px;
+}  
+.picto-gift {
+    border-radius: 50%;
+    margin : 0 15px
+}
+.payment-type {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.payment-txt {
+    font-size: 18px;
+}
+.gift {
+    display: flex;
+    justify-content: center;   
+}
+.gift-btn {
+    height: 35px;
+    width: 25%;
+    background-color: #8AB280;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 15px
+}
+
+#gift-h3, .gift-btn, .picto-gift {
+    align-self: center;
+}
 
 
 /*MEDIA QUERIES*/
 
 @media (max-width:500px) {
 
+    /*BODY MOBILE*/
+    body {
+        margin: 0;
+        padding: 0;
+    }
     /*NAVMOBILE*/
     .navcontainer {
         display: none;
     }
     
-    /*H1CONTAINER MOBILE*/
-    .h1container {
+    /*H1CONTAINER +TOP PAGE MOBILE*/
+    .h1container, .about-top-page, .tarifs-top-page {
         display: none;
     }
     /*ACTU MOBILE*/
@@ -249,5 +357,37 @@ h1 {
         width: 50%;
         margin: auto;
     }
+    /*TOPPAGE MOBILE*/
+    .prof1-container, .prof2-container, .prof3-container, #right, .cartes, .annuel, .unite {
+        display: block;
+        height: fit-content;
+        text-align: center;
+    }
+
+    /*ABOUT MOBILE*/
+    /*PROFS MOBILE*/
+    .profimg {
+        max-width: 150px;
+    }
+    .proftxt {
+        width: 80%;
+        margin: auto;
+        padding: 10px 0 15px 0;
+    }
+
+    /*TARIFS MOBILE*/
+    .aboimg {
+        max-height: 150px;
+        margin: 15px 0;
+    }
+    .extraborder {
+        width: 50%;
+        margin: auto;
+    }
+    .cartes {
+        margin: 35px auto;
+        width: 50%;
+    }
+  
     /*Il doit y avoir une fermeture} après ce commentaire sinon c'est la merde*/
     }
