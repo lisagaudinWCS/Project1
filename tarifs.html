@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Permanent+Marker&family=Quicksand:wght@300&display=swap" rel="stylesheet"> </head>
-<body>
-    <header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Eden Studio</title>
+        <script src="https://kit.fontawesome.com/3057297d06.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Permanent+Marker&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <!--Desktop menu-->
+    <header class="nav-desktop">
         <img src="./assets/logosvg.png" alt="Logo" id="logo" height="70">
         <ul class="navcontainer">
             <li><a href="index.html">Home</a></li>
@@ -17,6 +21,17 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </header>
+    <!--Mobile menu-->
+    <nav class="navbar-mobile">
+        <i class="fa-solid fa-bars"></i>
+        <div class="nav-list-mobile">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="planning.html">Planning</a>
+            <a href="tarifs.html">Tarifs</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
 <!--TOPPAGE-->
 <div class="tarifs-top-page">
     <h1>CARTES / ABONNEMENTS</h1>
@@ -119,6 +134,6 @@
             <h3>Contact</h3>
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>

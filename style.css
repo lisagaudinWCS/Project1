@@ -9,7 +9,7 @@
 /* Header Nav DESKTOP*/
 .nav-desktop {
     background-color: #526654;
-    display: none;
+    display: flex;
     justify-content: space-between;
 }
 #logo {
@@ -19,8 +19,8 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
-   align-items: center;
-   margin-right: 10px;
+    align-items: center;
+    margin-right: 10px;
 }
 li a {
     font-family: Permanent Marker;
@@ -40,6 +40,7 @@ li a {
     justify-content: space-around;
     text-align: center;
     background-color: #526654;
+    opacity: 0.8;
     transition: top 0.8s;
 }
 .nav-list-mobile a {
@@ -47,7 +48,9 @@ li a {
     font-family: Permanent Marker;
     font-size: 20px;
 }
-
+.navbar-mobile {
+    display: none;
+}
 .navbar-mobile i {
     z-index: 999;
     font-size: 50px;
@@ -55,6 +58,7 @@ li a {
     top: 10px;
     right: 15px;
     color: white;
+    cursor: pointer;
 }
 
 .list-visible {
@@ -199,7 +203,7 @@ h1 {
     width: 70%;
     margin: auto;
 }
-#right {
+.right {
     text-align: right;
 }
 
@@ -378,7 +382,7 @@ input {
 
 /*MEDIA QUERIES*/
 
-@media (max-width:500px) {
+@media (max-width:650px) {
 
     /*BODY MOBILE*/
     body {
@@ -386,8 +390,11 @@ input {
         padding: 0;
     }
     /*NAVMOBILE*/
-    .navcontainer {
+    .nav-desktop {
         display: none;
+    }
+    .navbar-mobile {
+        display: block;
     }
     
     /*H1CONTAINER +TOP PAGE MOBILE*/
@@ -428,7 +435,7 @@ input {
         margin: auto;
     }
     /*TOPPAGE MOBILE*/
-    .prof1-container, .prof2-container, .prof3-container, #right, .cartes, .annuel, .unite {
+    .prof1-container, .prof2-container, .prof3-container, .right, .cartes, .annuel, .unite {
         display: block;
         height: fit-content;
         text-align: center;
