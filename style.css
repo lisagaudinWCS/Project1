@@ -478,6 +478,21 @@ input {
     .gift-btn {
         display: none;
     }
-  
+    
+    /*CONTACT MOBILE*/
+.messagetitlebox {
+    display: block;
+}
+.contactborder {
+    display: none;
+}
+.messagetitle, form {
+    text-align: center;
+}
+input {
+    display: block;
+}
+
+
     /*Il doit y avoir une fermeture} après ce commentaire sinon c'est la merde*/
     }
