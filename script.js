@@ -14,7 +14,6 @@ icon.addEventListener('click', function() {
     //instructions
     list.classList.toggle("list-visible");
     icon.classList.toggle("icon-visible");
-
 })
 
 //Lorsque je clique sur le submitbtn, le texte et le CSS changent.

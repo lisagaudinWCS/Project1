@@ -57,12 +57,16 @@ li a {
     position: fixed;
     top: 10px;
     right: 15px;
-    color: white;
+    color:#353a36;
     cursor: pointer;
 }
 
+/*JS CLASSES*/
 .list-visible {
     top: 0;
+}
+.icon-visible {
+    color: white;
 }
 
 /* Footer*/
