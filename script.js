@@ -21,7 +21,7 @@ icon.addEventListener('click', function() {
 // 1- je cible mon bouton
 const btn = document.querySelector("#submitbtn");
 
-// 2- Réaction au click 
+// 2- Réaction au click : modif contenu innerHTML et style
 btn.addEventListener('click', function() {
     btn.innerHTML = "Envoyé !";
     btn.style.color = "black";
@@ -29,3 +29,5 @@ btn.addEventListener('click', function() {
     btn.style.fontStyle = "italic";
     btn.style.backgroundColor = "#e8c9cb"
 })
+
+// YOUPI ! 
