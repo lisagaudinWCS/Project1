@@ -16,3 +16,16 @@ icon.addEventListener('click', function() {
     icon.classList.toggle("icon-visible");
 
 })
+
+//Lorsque je clique sur le submitbtn, le texte et le CSS changent.
+// 1- je cible mon bouton
+const btn = document.querySelector("#submitbtn");
+
+// 2- Réaction au click 
+btn.addEventListener('click', function() {
+    btn.innerHTML = "Envoyé !";
+    btn.style.color = "black";
+    btn.style.fontWeight = "0";
+    btn.style.fontStyle = "italic";
+    btn.style.backgroundColor = "#e8c9cb"
+})

@@ -387,6 +387,19 @@ input {
 #message {
     width: 80%;
     resize: none;
+    margin-bottom: 15px;
+}
+
+#submitbtn {
+    display: block;
+    height: 40px;
+    width: 50%;
+    background-color: #E37379;
+    color: white;
+    font-family: Quicksand;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
 }
     
 
@@ -507,6 +520,10 @@ input, #message {
 }
 #message {
     height: 30vh;
+}
+#submitbtn {
+    width: 50vh;
+    margin: auto;
 }
 
     /*Il doit y avoir une fermeture} après ce commentaire sinon c'est la merde*/
