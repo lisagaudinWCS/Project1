@@ -6,14 +6,13 @@
     text-decoration: none;
     font-family: Quicksand;
 }
-/* Header Nav*/
-header {
+/* Header Nav DESKTOP*/
+.nav-desktop {
     background-color: #526654;
-    display: flex;
+    display: none;
     justify-content: space-between;
 }
 #logo {
-    border-radius: 50%;
     margin: 10px;
 }
 .navcontainer {
@@ -28,6 +27,10 @@ li a {
     color: white;
     font-size: 25px;
 }
+
+/*MENU BURGER*/
+
+
 /* Footer*/
 footer {
     width: 100%;
