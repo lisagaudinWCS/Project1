@@ -3,7 +3,7 @@
     list-style-type: none;
     margin : 0;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration: none;;
     font-family: Quicksand;
 }
 /* Header Nav DESKTOP*/
@@ -80,10 +80,15 @@ footer {
 .coordonnees {
     text-align: center;
 }
+.menu {
+    display: flex;
+    flex-direction: column;
+}
 
-.coordonnees h3, .menu h3{
+.coordonnees h3, .bottommenu {
     font-size: 22px;
     font-family: Permanent Marker;
+    color: white;
 }
 
 #italic {
@@ -486,12 +491,14 @@ input {
 .contactborder {
     display: none;
 }
-.messagetitle, form {
+.messagetitle {
     text-align: center;
 }
 input {
     display: block;
+    width: 100%;
 }
+
 
 
     /*Il doit y avoir une fermeture} après ce commentaire sinon c'est la merde*/
