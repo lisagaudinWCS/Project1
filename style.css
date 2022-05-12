@@ -382,7 +382,7 @@ input {
 
 /*MEDIA QUERIES*/
 
-@media (max-width:650px) {
+@media (max-width:750px) {
 
     /*BODY MOBILE*/
     body {
@@ -398,7 +398,7 @@ input {
     }
     
     /*H1CONTAINER +TOP PAGE MOBILE*/
-    .h1container, .about-top-page, .tarifs-top-page {
+    .h1container, .about-top-page, .tarifs-top-page, .planning-top-page, .contact-top-page {
         display: none;
     }
     /*ACTU MOBILE*/
@@ -462,8 +462,21 @@ input {
         margin: auto;
     }
     .cartes {
-        margin: 35px auto;
+        margin: 50px auto;
         width: 50%;
+    }
+    .firstbloc {
+        margin: 50px auto;
+    }
+
+    .infos {
+        display: none;
+    }
+    .payment-txt {
+        display: none;
+    }
+    .gift-btn {
+        display: none;
     }
   
     /*Il doit y avoir une fermeture} après ce commentaire sinon c'est la merde*/
