@@ -351,7 +351,8 @@ h1 {
 .messagetitlebox {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
 }
 .messagetitle {
     font-size: 25px;
@@ -360,30 +361,34 @@ h1 {
     background-color: black;
     border-radius: 20px;
     height: 5px;
-    width: 30%;
+    width: 40%;
     align-self: center;
     margin-left: 25px;
+    
+}
+.form {
+    width: 80%;
+    margin: 30px auto;
 }
 
-input {
-    border-radius: 5px;
+input, #message {
     border: none;
+    border-radius: 5px;
     background-color: #e8c9cb;
-}
-#firstname, #lastname, #email, #phone {
-    width: 35%;
+    font-size: 16px;
     padding: 10px;
+
+}
+input {
+    width: 40%;
+    margin: auto;
     margin-bottom: 10px;
 }
 #message {
-    padding: 20px;
-    background-color: #e8c9cb;
-    border: none;
-    border-radius: 5px;
+    width: 80%;
     resize: none;
-    width: 70.6%;
-
 }
+    
 
 /*MEDIA QUERIES*/
 
@@ -487,6 +492,7 @@ input {
     /*CONTACT MOBILE*/
 .messagetitlebox {
     display: block;
+    margin-top: 20px;
 }
 .contactborder {
     display: none;
@@ -494,12 +500,14 @@ input {
 .messagetitle {
     text-align: center;
 }
-input {
+
+input, #message {
     display: block;
     width: 100%;
 }
-
-
+#message {
+    height: 30vh;
+}
 
     /*Il doit y avoir une fermeture} après ce commentaire sinon c'est la merde*/
     }
