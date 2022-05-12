@@ -40,6 +40,7 @@ li a {
     justify-content: space-around;
     text-align: center;
     background-color: #526654;
+    transition: top 0.8s;
 }
 .nav-list-mobile a {
     color: white;
@@ -48,11 +49,16 @@ li a {
 }
 
 .navbar-mobile i {
+    z-index: 999;
     font-size: 50px;
     position: fixed;
     top: 10px;
     right: 15px;
     color: white;
+}
+
+.list-visible {
+    top: 0;
 }
 
 /* Footer*/
