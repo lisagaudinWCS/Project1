@@ -66,7 +66,7 @@ li a {
     top: 0;
 }
 .icon-visible {
-    color: white;
+    color: #353a36;
 }
 
 /* Footer*/
@@ -284,16 +284,22 @@ h1 {
 }
 
 .infos {
-    height: 45px;
-    width: 25%;
+    padding: 5px;
     margin: 25px;
+    width: 20%;
     background-color: #8AB280;
-    border-radius: 15px;
+    border-radius: 5px;
     border: none;
     color: white;
     font-weight: 600;
     font-size: 20px;
-    margin-bottom: 40px;
+    text-align: center;
+}
+#infosbtn {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 .fulldivpink {
